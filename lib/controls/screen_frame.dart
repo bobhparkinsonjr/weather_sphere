@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
+
 import '../utilities/settings_manager.dart';
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
 
 class ScreenFrame extends StatelessWidget {
   const ScreenFrame({Key? key, required this.child}) : super(key: key);

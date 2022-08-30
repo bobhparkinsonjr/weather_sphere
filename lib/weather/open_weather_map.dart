@@ -38,7 +38,7 @@ class OpenWeatherMap extends WeatherInfo {
   final String _apiCurrentWeather = 'https://api.openweathermap.org/data/2.5/weather';
   final String _apiForecastWeather = 'https://api.openweathermap.org/data/2.5/forecast';
 
-  static const int kMinIntervalApiCallsMS = 1000 * 60 * 60 * 3;
+  static const int kMinIntervalApiCallsMS = 1000 * 60 * 60 * 1;
 
   @override
   bool isLastApiCallExpired() {
